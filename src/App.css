@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #05041d;
+}
+
+#app {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.header h1 {
+  margin-top: 150px;
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form ul {
+  padding: 10px 30px 30px;
+  background: #262561;
+  border-radius: 10px;
+}
+
+.form ul h3 {
+  padding-bottom: 20px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.form ul li {
+  list-style: none;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+}
+
+.form ul li button {
+  margin: 0 10px;
+  border: none;
+  text-align: center;
+  color: #fa3136;
+  background: none;
+  cursor: pointer;
+}
+
+.form ul li .delete {
+  margin: 0 10px;
+  border: none;
+  border-radius: 50%;
+  padding: 2px 4px;
+  text-align: center;
+  font-size: 10px;
+  color: #fa3136;
+  background: #05041d;
+  cursor: pointer;
+}
+
+.form #input {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 10px 20px 20px;
+  padding: 5px 30px;
+  background: #262561;
+  border: none;
+  border-radius: 10px;
+  outline-style: none;
+}
+
+.form #submit {
+  color: #fff;
+  margin-top: 10px;
+  margin-right: 1px;
+  padding: 4px 14px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  background: linear-gradient(#fa3136, #9f5aed);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  outline-style: none;
+}
+
+@media (max-width: 600px) {
+  #app {
+    width: 330px;
+  }
+}
